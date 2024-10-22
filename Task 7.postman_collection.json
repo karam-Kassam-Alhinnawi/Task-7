@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "f8c47c4f-7733-4d3d-81f8-a0bd558ab110",
+		"name": "Task 7",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36424418"
+	},
+	"item": [
+		{
+			"name": "Posts",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "x-auth-token",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NzE3ZDEzZDVhMjZlZWU5NjhkNjEzY2IiLCJpYXQiOjE3Mjk2MTQyMjcsImV4cCI6MTcyOTYxNzgyN30.glQf1mhA6XwFGk8JaTa0E-894yiaeoNMwV-PO3FTbdE",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"videoId\": \"6717d54b5a26eee968d613d1\", \r\n    \"content\": \"This is a comment.\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/api/comments",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"comments"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
